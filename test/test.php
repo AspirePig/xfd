@@ -41,7 +41,7 @@
 							<h2>Please answer the following questions seriously</h2><font face="黑体"size="5">
 
 							<?php
-                                $con = mysqli_connect("localhost","gestboard","gestboard");
+                                $con = mysqli_connect("localhost","","");
 
                                 if(!$con)
                                 {
